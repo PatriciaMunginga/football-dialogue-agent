@@ -1,0 +1,20 @@
+USER: I would like to know about Stoke City and who did they play last?
+- Intent: GetInfo
+- Slots: {team: 'Stoke City', info: 'lastOpponent'}
+
+ASSISTANT: Their last game they played was against the Man City F.C.
+
+USER: Thank you. And what was the score of their last game?
+- Intent: GetInfo
+- Slots: {team: 'Stoke City', info: 'lastScore'}
+
+ASSISTANT: They lost their last game, the score was 0 and 2.
+
+USER: Okay. And who is their manager?
+- Intent: GetInfo
+- Slots: {team: 'Stoke City', info: 'manager'}
+
+ASSISTANT: Their manager is Chris Hughton.
+
+USER: Okay, great. Thank you so much for that information today.
+- Intent: Other

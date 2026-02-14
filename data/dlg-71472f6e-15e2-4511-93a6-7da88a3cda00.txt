@@ -1,0 +1,38 @@
+ASSISTANT: Hello.
+
+USER: Hi, I'm a fan of the Stoke City of the EPL. What is their record right now?
+- Intent: GetInfo
+- Slots: {team: 'Stoke City', info: 'winLossRecord'}
+
+ASSISTANT: Sorry, there was a disconnection can you repeat yourself?
+
+USER: Hi, I'm a fan of the Stoke City of the EPL. What is their record right now?
+- Intent: GetInfo
+- Slots: {team: 'Stoke City', info: 'winLossRecord'}
+
+ASSISTANT: Oh, sure thing, the Stoke City's record right now is currently in 16th Place, they lost against the Everton FC on Saturday 1 to 0.
+
+USER: Who are they playing in their next game?
+- Intent: GetInfo
+- Slots: {team: 'Stoke City', info: 'nextOpponent'}
+
+ASSISTANT: Next game Stoke City will be playing Arsenal FC.
+
+USER: Who's the manager of Stoke City?
+- Intent: GetInfo
+- Slots: {team: 'Stoke City', info: 'manager'}
+
+ASSISTANT: The Stoke City manager is Mark Hughes.
+
+USER: Okay. That's pretty much all the information I was looking about Stoke City. You gave me all the things that I needed, so thank you for that.
+- Intent: Other
+
+ASSISTANT: You got it.
+
+USER: I hope you enjoy the rest of your evening.
+- Intent: Other
+
+ASSISTANT: Likewise, same to you.
+
+USER: Thank you.
+- Intent: Other

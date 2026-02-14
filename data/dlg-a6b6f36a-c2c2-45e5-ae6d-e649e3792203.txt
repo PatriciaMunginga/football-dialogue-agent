@@ -1,0 +1,34 @@
+ASSISTANT: How can I help you?
+
+USER: Hello, I need to know the record of Manchester City.
+- Intent: GetInfo
+- Slots: {team: 'Manchester City', info: 'winLossRecord'}
+
+ASSISTANT: Manchester city is in the second place with three wins 0 losses and one draw.
+
+USER: Are they playing right now?
+- Intent: GetInfo
+- Slots: {team: 'Manchester City', info: 'playingNow'}
+
+ASSISTANT: No they're not playing right now. They playing next on September 16th against Watford.
+
+USER: And who did they last play?
+- Intent: GetInfo
+- Slots: {team: 'Manchester City', info: 'lastOpponent'}
+
+ASSISTANT: Their last game was played on September 9th against Liverpool and they won the game with the score 5-0.
+
+USER: And, Who is their manager?
+- Intent: GetInfo
+- Slots: {team: 'Manchester City', info: 'manager'}
+
+ASSISTANT: Manchester City FC's manager is Pep Guardiola.
+
+USER: Awesome. That's all I need to know, Thank you.
+- Intent: Info
+
+ASSISTANT: You're welcome.
+
+USER: Bye.
+- Intent: Info
+

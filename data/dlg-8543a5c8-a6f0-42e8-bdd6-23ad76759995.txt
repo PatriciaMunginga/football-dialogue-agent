@@ -1,0 +1,31 @@
+USER: Hi. Could you tell me what Everton's current record is?
+- Intent: GetInfo
+- Slots: {team: 'Everton', info: 'winLossRecord'}
+
+ASSISTANT: Just a moment. Everton is currently 9th Place.
+
+USER: Okay. And how many games have they played so far?
+- Intent: GetInfo
+- Slots: {team: 'Everton', info: 'numGamesPlayed'}
+
+ASSISTANT: Safeway 24 games total.
+
+USER: Okay. And who'd they play last?
+- Intent: GetInfo
+- Slots: {team: 'Everton', info: 'lastOpponent'}
+
+ASSISTANT: They played against West Brom and tied 1 to 1.
+
+USER: Okay. And who do they play next?
+- Intent: GetInfo
+- Slots: {team: 'Everton', info: 'nextOpponent'}
+
+ASSISTANT: Lancaster City, Jordan Pickford.
+
+USER: Okay. Thank you.
+- Intent: Other
+
+ASSISTANT: Have a good day.
+
+USER: You, too.
+- Intent: Other

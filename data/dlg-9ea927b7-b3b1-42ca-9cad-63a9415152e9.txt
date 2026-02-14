@@ -1,0 +1,42 @@
+USER: What place is Southampton in?
+- Intent: GetInfo
+- Slots: {team: 'Southampton', info: 'leaguePosition'}
+
+ASSISTANT: Hi, how may I help you?
+
+ASSISTANT: The Southampton is currently in eighth in the Premier League standings.
+
+USER: How many games have they played so far?
+- Intent: GetInfo
+- Slots: {team: 'Southampton', info: 'numGamesPlayed'}
+
+ASSISTANT: So far Southampton F.C. has only played four games.
+
+USER: Who will they play next?
+- Intent: GetInfo
+- Slots: {team: 'Southampton', info: 'nextOpponent'}
+
+ASSISTANT: Next, they will be playing the Watford F.C.
+
+ASSISTANT: On September 9th at 7 a.m.
+
+USER: How did they do their last game?
+- Intent: GetInfo
+- Slots: {team: 'Southampton', info: 'lastScore'}
+
+ASSISTANT: Play tied in the last game there was no score 0 to 0.
+
+USER: Who is their manager?
+- Intent: GetInfo
+- Slots: {team: 'Southampton', info: 'manager'}
+
+ASSISTANT: Their manager is Mauricio Pellegrino.
+
+USER: Okay. Thank you. Have a nice day.
+- Intent: Other
+
+ASSISTANT: Hey, what can I say, it was my pleasure to have a great day.
+
+USER: Bye-bye.
+- Intent: Other
+

@@ -1,0 +1,29 @@
+ASSISTANT: Hello.
+
+USER: Hi, I was wondering what's Brighton record right now?
+- Intent: GetInfo
+- Slots: {team: 'Brighton', info: 'winLossRecord'}
+
+ASSISTANT: Brighton FC record is 0 wins, 1 draw and 2 loses.
+
+USER: Okay, And who will they play next?
+- Intent: GetInfo
+- Slots: {team: 'Brighton', info: 'nextOpponent'}
+
+ASSISTANT: Their game is on September 9th against West Brom FC.
+
+USER: Okay, And what was the score of their last game?
+- Intent: GetInfo
+- Slots: {team: 'Brighton', info: 'lastScore'}
+
+ASSISTANT: They lost their last game the score was 2 and 0.
+
+USER: Okay, And who is their manager?
+- Intent: GetInfo
+- Slots: {team: 'Brighton', info: 'manager'}
+
+ASSISTANT: Their manager is Chris Hughton.
+
+USER: Okay, Thank you.
+- Intent: Other
+

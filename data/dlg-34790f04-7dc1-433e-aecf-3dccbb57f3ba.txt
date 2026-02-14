@@ -1,0 +1,35 @@
+ASSISTANT: How can I help you?
+
+ASSISTANT: Did you say Manchester City?
+
+ASSISTANT: The Leicester City is currently ranked number 8 in the Premier League standings.
+
+USER: Hi. I'd like to know about the Leicester City.
+- Intent: GetInfo
+- Slots: {team: 'Leicester City'}
+
+USER: That's too bad. How many games have they played so far?
+- Intent: GetInfo
+- Slots: {team: 'Leicester City', info: 'numGamesPlayed'}
+
+ASSISTANT: The total of 2 matches.
+
+USER: Okay. Who did they play last?
+- Intent: GetInfo
+- Slots: {team: 'Leicester City', info: 'lastOpponent'}
+
+ASSISTANT: The last game was against the Brighton and the Leicester City lost the game with the score 12-20.
+
+USER: Who's their manager right now?
+- Intent: GetInfo
+- Slots: {team: 'Leicester City', info: 'manager'}
+
+ASSISTANT: The manager for Leicester city is Craig Shakespeare.
+
+USER: Okay. Thank you very much. Appreciate it.
+- Intent: Other
+
+ASSISTANT: You're welcome. Bye.
+
+USER: Bye-bye.
+- Intent: Other

@@ -1,0 +1,43 @@
+ASSISTANT: Hi, how can I help you?
+
+USER: Hello, I need to know the record of Manchester City?
+- Intent: GetInfo
+- Slots: {team: 'Manchester City', info: 'winLossRecord'}
+
+ASSISTANT: 21 wins, 2 draws and 1 loss.
+
+USER: Are they playing right now?
+- Intent: GetInfo
+- Slots: {team: 'Manchester City', info: 'playingNow'}
+
+ASSISTANT: Can you repeat that?
+
+USER: Are they playing right now?
+- Intent: GetInfo
+- Slots: {team: 'Manchester City', info: 'playingNow'}
+
+ASSISTANT: No.
+
+USER: Who did they play last?
+- Intent: GetInfo
+- Slots: {team: 'Manchester City', info: 'lastOpponent'}
+
+ASSISTANT: Bristol City.
+
+USER: What was the score of the last game?
+- Intent: GetInfo
+- Slots: {team: 'Manchester City', info: 'lastScore'}
+
+ASSISTANT: Manchester City won with a score of 3-2 against Bristol City.
+
+USER: Who's their manager?
+- Intent: GetInfo
+- Slots: {team: 'Manchester City', info: 'manager'}
+
+ASSISTANT: Pep Guardiola.
+
+USER: Okay, great. That's all I needed.
+- Intent: Other
+
+ASSISTANT: Bye.
+

@@ -1,0 +1,37 @@
+ASSISTANT: Hi. How can I help you?
+
+USER: Hi. I am looking for information about the soccer team called Burnley.
+- Intent: GetInfo
+- Slots: {team: 'Burnley'}
+
+ASSISTANT: Burnley is in the sixth place with one win and zero losses.
+
+USER: How many games has Burnley played so far?
+- Intent: GetInfo
+- Slots: {team: 'Burnley', info: 'numGamesPlayed'}
+
+ASSISTANT: They have play just one match.
+
+USER: Who will Burnley play against next?
+- Intent: GetInfo
+- Slots: {team: 'Burnley', info: 'nextOpponent'}
+
+ASSISTANT: Burnley will play against West Brom on August 19th.
+
+USER: How did Burnley do in their last game?
+- Intent: GetInfo
+- Slots: {team: 'Burnley', info: 'lastScore'}
+
+ASSISTANT: They played their last game on August 12th against Chelsea and they won the game by 3-2.
+
+USER: Who is the manager for Burnley?
+- Intent: GetInfo
+- Slots: {team: 'Burnley', info: 'manager'}
+
+ASSISTANT: The manager for Burnley is Sean Dyche.
+
+USER: Perfect. That's all I needed to know. Thank you very much for your help.
+- Intent: Other
+
+ASSISTANT: Goodbye.
+

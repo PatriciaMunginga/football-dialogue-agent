@@ -1,0 +1,40 @@
+ASSISTANT: Hi, how can I help you?
+
+USER: How's West Ham United doing?
+- Intent: GetInfo
+- Slots: {team: 'West Ham United', info: 'leaguePosition'}
+
+ASSISTANT: West Ham United is currently in second to the last place.
+
+USER: Is West Ham United playing right now?
+- Intent: GetInfo
+- Slots: {team: 'West Ham United', info: 'playingNow'}
+
+ASSISTANT: No, their last game was on Sunday, against Manchester City. And they lost 2 to 1.
+
+USER: Who did West Ham?
+- Intent: Other
+
+USER: Who did West Ham play last?
+- Intent: GetInfo
+- Slots: {team: 'West Ham', info: 'lastOpponent'}
+
+ASSISTANT: Their last game was against Manchester City.
+
+USER: What was the score of West Ham's last game?
+- Intent: GetInfo
+- Slots: {team: 'West Ham', info: 'lastScore'}
+
+ASSISTANT: The last score was 2 to 1, in favor of Manchester City.
+
+USER: Wow! Who is the manager of West Ham?
+- Intent: GetInfo
+- Slots: {team: 'West Ham', info: 'manager'}
+
+ASSISTANT: Their manager is David Moyes.
+
+USER: All right, thank you so much.
+- Intent: Other
+
+ASSISTANT: Goodbye.
+

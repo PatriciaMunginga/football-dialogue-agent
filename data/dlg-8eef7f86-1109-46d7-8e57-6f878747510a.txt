@@ -1,0 +1,39 @@
+ASSISTANT: How can I help you?
+
+USER: What place is Everton in?
+- Intent: GetInfo
+- Slots: {team: 'Everton', info: 'leaguePosition'}
+
+ASSISTANT: Everton is number 15 in the English Premier League standings.
+
+USER: Are they playing right now?
+- Intent: GetInfo
+- Slots: {team: 'Everton', info: 'playingNow'}
+
+ASSISTANT: Everton was not scheduled to play today their next game is against Crystal Palace on November 18th.
+
+USER: Who did they play last?
+- Intent: GetInfo
+- Slots: {team: 'Everton', info: 'lastOpponent'}
+
+ASSISTANT: Everton played Watford on November 5th and Everton won 3-2.
+
+USER: They won their last game?
+- Intent: GetInfo
+- Slots: {team: 'Everton', info: 'lastScore'}
+
+ASSISTANT: Yes.
+
+USER: Okay and who is their manager?
+- Intent: GetInfo
+- Slots: {team: 'Everton', info: 'manager'}
+
+ASSISTANT: The manager for Everton is David unsworth.
+
+USER: Thanks.
+- Intent: Other
+
+ASSISTANT: Talk to you next time.
+
+ASSISTANT: Bye.
+

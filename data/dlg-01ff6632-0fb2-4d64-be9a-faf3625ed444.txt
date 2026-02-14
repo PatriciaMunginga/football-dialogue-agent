@@ -1,0 +1,39 @@
+ASSISTANT: How can I help you?
+
+USER: What place are Huddersfield in?
+- Intent: GetInfo
+- Slots: {team: 'Huddersfield', info: 'leaguePosition'}
+
+ASSISTANT: They are in 14th place with 25 matches played and 6 wins.
+
+USER: Who are they playing next?
+- Intent: GetInfo
+- Slots: {team: 'Huddersfield', info: 'nextOpponent'}
+
+USER: Who are they playing next? Let me rephrase that. Who are they playing now?
+- Intent: GetInfo
+- Slots: {team: 'Huddersfield', info: 'nextOpponent'}
+
+ASSISTANT: They are playing against Liverpool today.
+
+USER: And who will they be playing after this game?
+- Intent: GetInfo
+- Slots: {team: 'Huddersfield', info: 'nextOpponent'}
+
+ASSISTANT: They will be playing Man United on Saturday February 23 at 7:00 AM.
+
+USER: That's going to be a tough game and how did Huddersfield do in their previous game?
+- Intent: GetInfo
+- Slots: {team: 'Huddersfield', info: 'lastScore'}
+
+ASSISTANT: They lost 2 to 0 against stoke city on January 20th. Okay. Thank you.
+
+ASSISTANT: Okay. Thank you.
+
+USER: That was excellent. Until next time.
+- Intent: Other
+
+ASSISTANT: Good bye.
+
+ASSISTANT: Goodbye, until next time.
+

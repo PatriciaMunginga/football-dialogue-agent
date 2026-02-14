@@ -1,0 +1,31 @@
+ASSISTANT: Hi. How can I help you?
+
+USER: Hi. Could you tell me how Chelsea in the English Premier League is doing this season?
+- Intent: GetInfo
+- Slots: {team: 'Chelsea', info: 'leaguePosition'}
+
+ASSISTANT: Sure. They are currently in 3rd place.
+
+USER: Oh, okay. And are they playing right now?
+- Intent: GetInfo
+- Slots: {team: 'Chelsea', info: 'playingNow'}
+
+ASSISTANT: No. They play tomorrow against Swansea city.
+
+USER: Oh, okay. And how did they do in their last game?
+- Intent: GetInfo
+- Slots: {team: 'Chelsea', info: 'lastScore'}
+
+ASSISTANT: They played with Liverpool and tied with a score of 1-1.
+
+USER: Oh, very good. And who is the manager of Chelsea?
+- Intent: GetInfo
+- Slots: {team: 'Chelsea', info: 'manager'}
+
+ASSISTANT: Antonio Conte.
+
+USER: Oh, okay. Yes. Thank you so much for the information. I appreciate it. Bye.
+- Intent: Other
+
+ASSISTANT: You're welcome. Bye.
+

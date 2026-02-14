@@ -1,0 +1,37 @@
+ASSISTANT: Hi, how can I help you?
+
+USER: How is Watford doing?
+- Intent: GetInfo
+- Slots: {team: 'Watford'}
+
+ASSISTANT: Watford is in the eighth place with 3 wins 1 loss and three draws.
+
+USER: How many games have they played so far?
+- Intent: GetInfo
+- Slots: {team: 'Watford', info: 'numGamesPlayed'}
+
+ASSISTANT: So far they have played seven matches.
+
+USER: Who are they playing next?
+- Intent: GetInfo
+- Slots: {team: 'Watford', info: 'nextOpponent'}
+
+ASSISTANT: Their next match is tomorrow against Arsenal.
+
+USER: What was the score of their last game?
+- Intent: GetInfo
+- Slots: {team: 'Watford', info: 'lastScore'}
+
+ASSISTANT: Their last game was played on September 30th against West Brom and it was a draw with the score 2-2.
+
+USER: Who is their manager?
+- Intent: GetInfo
+- Slots: {team: 'Watford', info: 'manager'}
+
+ASSISTANT: Marco Silva is their manager.
+
+USER: Okay. That's all I needed to know.
+- Intent: Other
+
+ASSISTANT: Thank you. Until next time. Bye.
+

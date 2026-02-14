@@ -1,0 +1,21 @@
+USER: Hi, today I need your help getting information about the EPL specifically West Ham United. I'm wondering what record right now does West Ham have?
+- Intent: GetInfo
+- Slots: {team: 'West Ham', info: 'winLossRecord'}
+
+ASSISTANT: Hello. Currently in 15th Place in the English Premier League.
+
+USER: Okay, they are in 15th place. Now I'm wondering in their last game who did West Ham play? What was the final score?
+- Intent: GetInfo
+- Slots: {team: 'West Ham', info: 'lastOpponent', info: 'lastScore'}
+
+ASSISTANT: Their next game is going to be against Burnley F.C.
+
+USER: Landi F.C, okay. Now in the last game, I'm wondering what was the final score?
+- Intent: GetInfo
+- Slots: {team: 'West Ham', info: 'lastOpponent', info: 'lastScore'}
+
+ASSISTANT: In their last game, they played against Swansea City F.C. The score was 1 and 0.
+
+USER: Okay, one and zero. Now I'm wondering who's the current manager for West Ham?
+- Intent: GetInfo
+- Slots: {team: 'West Ham', info: 'lastOpponent', info: 'manager'}

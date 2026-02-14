@@ -1,0 +1,38 @@
+USER: Hi. I want to know, how Burnley is doing this year.
+- Intent: GetInfo
+- Slots: {team: 'Burnley', info: 'leaguePosition'}
+
+ASSISTANT: Hello, how can I help you?
+
+ASSISTANT: They are currently in 7th place in English Premier League.
+
+USER: Okay. How many games have they played so far this year?
+- Intent: GetInfo
+- Slots: {team: 'Burnley', info: 'numGamesPlayed'}
+
+ASSISTANT: They had played a total of 13 games.
+
+USER: Okay. Who will they play against next?
+- Intent: GetInfo
+- Slots: {team: 'Burnley', info: 'nextOpponent'}
+
+ASSISTANT: The next game is against Bournemouth, F.C.
+
+USER: Okay.
+- Intent: Other
+
+USER: How did they do their last game?
+- Intent: GetInfo
+- Slots: {team: 'Burnley', info: 'lastScore'}
+
+ASSISTANT: They won the last game the score was 2 to 0.
+
+USER: Okay. Who is their manager?
+- Intent: GetInfo
+- Slots: {team: 'Burnley', info: 'manager'}
+
+ASSISTANT: Their manager is 'Sean Dyche'.
+
+USER: All right. That'll be it for me. Thanks.
+- Intent: Other
+

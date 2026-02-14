@@ -1,0 +1,35 @@
+ASSISTANT: Hello.
+
+USER: What place is Berkeley in?
+- Intent: GetInfo
+- Slots: {team: 'Berkeley', info: 'leaguePosition'}
+
+ASSISTANT: They're in currently 7th place in the English Premier League.
+
+USER: Who is Berkeley playing right now?
+- Intent: GetInfo
+- Slots: {team: 'Berkeley', info: 'playingNow'}
+
+ASSISTANT: They're not scheduled to play today.
+
+USER: Who will Berkeley play next?
+- Intent: GetInfo
+- Slots: {team: 'Berkeley', info: 'nextOpponent'}
+
+ASSISTANT: Their next game is against Watford FC.
+
+USER: How did they do in their last game?
+- Intent: GetInfo
+- Slots: {team: 'Berkeley', info: 'lastScore'}
+
+ASSISTANT: They lost their last game, the score was 1 and 0.
+
+USER: Who is Berkeley's manager?
+- Intent: GetInfo
+- Slots: {team: 'Berkeley', info: 'manager'}
+
+ASSISTANT: Sean Dyche.
+
+USER: Okay, thank you very much.
+- Intent: Other
+

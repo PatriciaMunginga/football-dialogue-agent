@@ -1,0 +1,42 @@
+ASSISTANT: How can I help you?
+
+USER: Hello, I need to know how Stoke City English Premier League soccer team is doing?
+- Intent: GetInfo
+- Slots: {team: 'Stoke City', info: 'leaguePosition'}
+
+ASSISTANT: Stoke City is in the 11th place with one win, one loss and one draw.
+
+USER: And are they playing right now?
+- Intent: GetInfo
+- Slots: {team: 'Stoke City', info: 'playingNow'}
+
+ASSISTANT: I see that they are not playing right now.
+
+USER: Who will they play against next and how did they do in their last game?
+- Intent: GetInfo
+- Slots: {team: 'Stoke City', info: 'nextOpponent', info: 'lastScore'}
+
+ASSISTANT: Their next game will be played on September 9th against Manchester United.
+
+USER: How did they do their last game?
+- Intent: GetInfo
+- Slots: {team: 'Stoke City', info: 'lastScore'}
+
+ASSISTANT: Their last game was played on August 27th against West Brom and it was a draw 1-1.
+
+USER: And who is their manager?
+- Intent: GetInfo
+- Slots: {team: 'Stoke City', info: 'manager'}
+
+ASSISTANT: Stoke City FC's manager is Mark Hughes.
+
+USER: Awesome. That's all I needed to know.
+- Intent: Other
+
+USER: Thank you, bye.
+- Intent: Other
+
+ASSISTANT: Thank you very much.
+
+USER: Goodbye.
+- Intent: Other

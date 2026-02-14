@@ -1,0 +1,37 @@
+ASSISTANT: How can I help you?
+
+USER: What is Arsenal's record?
+- Intent: GetInfo
+- Slots: {team: 'Arsenal', info: 'winLossRecord'}
+
+ASSISTANT: Arsenal is in fifth place with one win and zero losses.
+
+USER: Are they playing right now?
+- Intent: GetInfo
+- Slots: {team: 'Arsenal', info: 'playingNow'}
+
+ASSISTANT: No, they're not playing right now.
+
+USER: Who did they play against lastly?
+- Intent: GetInfo
+- Slots: {team: 'Arsenal', info: 'lastOpponent'}
+
+ASSISTANT: They played last against Leicester City and they won the game by 4-3.
+
+USER: What was the score of their last game?
+- Intent: GetInfo
+- Slots: {team: 'Arsenal', info: 'lastScore'}
+
+ASSISTANT: That was the last game and they won against Leicester City by 4-3.
+
+USER: Who is their manager?
+- Intent: GetInfo
+- Slots: {team: 'Arsenal', info: 'manager'}
+
+ASSISTANT: Their manager is Arsene Wenger.
+
+USER: Okay, that was all I needed to know.
+- Intent: Other
+
+ASSISTANT: Bye.
+

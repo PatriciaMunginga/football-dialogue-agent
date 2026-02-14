@@ -1,0 +1,35 @@
+ASSISTANT: Hello!
+
+USER: Hi, what is AFC Bournemouth record right now?
+- Intent: GetInfo
+- Slots: {team: 'AFC Bournemouth', info: 'winLossRecord'}
+
+ASSISTANT: Their record is 24 wins, 6 loss and 7 draws.
+
+USER: Okay, and are they playing right now?
+- Intent: GetInfo
+- Slots: {team: 'AFC Bournemouth', info: 'playingNow'}
+
+ASSISTANT: No, they're not scheduled to play today.
+
+USER: Okay. And who did they play last?
+- Intent: GetInfo
+- Slots: {team: 'AFC Bournemouth', info: 'lastOpponent'}
+
+ASSISTANT: Their last opponent was West Ham FC.
+
+USER: Okay, and how did they do last game?
+- Intent: GetInfo
+- Slots: {team: 'AFC Bournemouth', info: 'lastScore'}
+
+ASSISTANT: The last game was a draw. The score was one and one.
+
+USER: Alright, and who's their manager?
+- Intent: GetInfo
+- Slots: {team: 'AFC Bournemouth', info: 'manager'}
+
+ASSISTANT: Their manager is Eddie Howe.
+
+USER: Okay. Awesome, thanks. That's all I needed.
+- Intent: Other
+

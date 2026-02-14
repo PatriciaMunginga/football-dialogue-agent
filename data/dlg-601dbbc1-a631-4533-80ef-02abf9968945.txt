@@ -1,0 +1,36 @@
+ASSISTANT: How can I help you?
+
+USER: I have some English Premier League soccer questions, please.
+- Intent: Other
+
+ASSISTANT: How can I assist you with that?
+
+USER: What place is the Newcastle United team in, please?
+- Intent: GetInfo
+- Slots: {team: 'Newcastle United', info: 'leaguePosition'}
+
+ASSISTANT: Newcastle is in the 9th Place with 3 wins, 3 losses and 2 draws.
+
+USER: Are they playing right now?
+- Intent: GetInfo
+- Slots: {team: 'Newcastle United', info: 'playingNow'}
+
+ASSISTANT: No, they will play next on October 21st against Crystal Palace.
+
+USER: And who did they play last?
+- Intent: GetInfo
+- Slots: {team: 'Newcastle United', info: 'lastOpponent'}
+
+ASSISTANT: Their last game played was on October 15th against Southampton, which was a draw with the score 2-2.
+
+USER: And who is their manager, please?
+- Intent: GetInfo
+- Slots: {team: 'Newcastle United', info: 'manager'}
+
+ASSISTANT: Rafael Benítez is their manager.
+
+USER: Thank you for your help.
+- Intent: Other
+
+ASSISTANT: You're welcome. Bye. Until next time.
+

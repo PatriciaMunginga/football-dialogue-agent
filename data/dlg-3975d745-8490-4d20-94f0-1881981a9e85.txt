@@ -1,0 +1,37 @@
+ASSISTANT: How can I help you?
+
+USER: What place are is the Swansea City in?
+- Intent: GetInfo
+- Slots: {team: 'Swansea City', info: 'leaguePosition'}
+
+ASSISTANT: Swansea City is currently ranked number 13 in the Premier League standings.
+
+USER: Are they playing right now?
+- Intent: GetInfo
+- Slots: {team: 'Swansea City', info: 'playingNow'}
+
+ASSISTANT: They are not playing right now, they are scheduled to play Newcastle on September 10th.
+
+USER: Who did they play last?
+- Intent: GetInfo
+- Slots: {team: 'Swansea City', info: 'lastOpponent'}
+
+ASSISTANT: Swansea City played Crystal Palace Swansea City won 2 - 0.
+
+USER: How did they do their last game?
+- Intent: GetInfo
+- Slots: {team: 'Swansea City', info: 'lastScore'}
+
+ASSISTANT: Swansea City's last game was August 26th against Crystal Palace Swansea City won 2 - 0.
+
+USER: Who is their manager?
+- Intent: GetInfo
+- Slots: {team: 'Swansea City', info: 'manager'}
+
+ASSISTANT: The manager of Swansea City is Paul Clement.
+
+USER: Well, I thank you for you helping me. I'm all done, Assistant. Have a nice day. Bye-bye.
+- Intent: Other
+
+ASSISTANT: Until next time. Bye.
+

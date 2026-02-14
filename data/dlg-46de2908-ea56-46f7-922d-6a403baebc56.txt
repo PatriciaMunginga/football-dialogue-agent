@@ -1,0 +1,39 @@
+USER: Well. How is Leicester City doing right now? What place are they in?
+- Intent: GetInfo
+- Slots: {team: 'Leicester City', info: 'lastOpponent'}
+
+ASSISTANT: How can I help you?
+
+ASSISTANT: They're currently 13th Place in the Premier League with zero wins and 1 loss.
+
+USER: Oh, that's not good at all. Are they playing right now?
+- Intent: GetInfo
+- Slots: {team: 'Leicester City', info: 'playingNow'}
+
+ASSISTANT: No, they are not playing right now.
+
+USER: Okay. Who will they play next?
+- Intent: GetInfo
+- Slots: {team: 'Leicester City', info: 'nextOpponent'}
+
+ASSISTANT: The next they will be playing with Brighton at 7 a.m.
+
+USER: Oh. Who will they play next? Oh, I'm sorry. How did they play the last game? Did they lose?
+- Intent: GetInfo
+- Slots: {team: 'Leicester City', info: 'lastScore'}
+
+ASSISTANT: They lost their last game to Arsenal 4-3.
+
+USER: Oh, okay. Who's their manager currently?
+- Intent: GetInfo
+- Slots: {team: 'Leicester City', info: 'manager'}
+
+ASSISTANT: Their Manager is Craig Shakespeare.
+
+USER: Thank you very much.
+- Intent: Other
+
+ASSISTANT: Thank you.
+
+USER: Bye-bye.
+- Intent: Other
