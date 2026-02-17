@@ -53,10 +53,14 @@ def filter_premier_league_matches(matches):
 # Purpose: Resolve team name to team ID
 
 def get_arsenal_id():
+    # Call test_api_call(), f'' = f-string (string formatting)
     teams_result = test_api_call(f'competitions/{PREMIER_LEAGUE_CODE}/teams', verbose=False)
 
+    # First check if team_result is not None and .get('teams') safely tries to access the 'teams' key
     if teams_result and teams_result.get('teams'):
+        # Loop through each team and keep the one where Arsenal is in the team name - the first match
         arsenal = next((t for t in teams_result['teams'] if 'Arsenal' in t['name']), None)
+        # If Arsenal was found - return the team's ID else return None
         if arsenal:
             print(f"\nResolved team 'Arsenal' to ID: {arsenal['id']}")
             return arsenal['id']
@@ -65,7 +69,7 @@ def get_arsenal_id():
 # SLOT: manager
 #
 # Endpoint used: /v4/teams/{id}
-# Purpose: Returns detailed team info including coach field
+# Purpose: Returns detailed team info including coach/manager field
 
 def test_manager_slot(team_id):
     print("\n--- Testing SLOT: manager ---")
