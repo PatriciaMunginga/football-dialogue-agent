@@ -10,12 +10,6 @@ USER: Are they playing right now?
 - Intent: GetInfo
 - Slots: {team: 'Manchester City', info: 'playingNow'}
 
-ASSISTANT: Can you repeat that?
-
-USER: Are they playing right now?
-- Intent: GetInfo
-- Slots: {team: 'Manchester City', info: 'playingNow'}
-
 ASSISTANT: No.
 
 USER: Who did they play last?

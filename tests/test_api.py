@@ -94,7 +94,7 @@ def test_manager_slot(team_id):
 def test_standings_slots(team_id):
     print("\n--- Testing SLOTS: leaguePosition, numGamesPlayed, winLossRecord ---")
 
-    result = test_api_call(f'competitions/{PREMIER_LEAGUE_CODE}/standings', verbose = False)
+    result = test_api_call(f'competitions/{PREMIER_LEAGUE_CODE}/standings', verbose = True)
 
     if result and result.get('standings'):
         for standing_type in result['standings']:
