@@ -30,7 +30,7 @@ USER: Who is the manager for Burnley?
 
 ASSISTANT: The manager for Burnley is Sean Dyche.
 
-USER: Perfect. That's all I needed to know. Thank you very much for your help.
+USER: `Perfect. That's all I needed to know. Thank you very much for your help.`
 - Intent: Other
 
 ASSISTANT: Goodbye.
