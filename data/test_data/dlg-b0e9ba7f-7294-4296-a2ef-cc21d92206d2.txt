@@ -1,0 +1,42 @@
+USER: Yes, I want know some information about Newcastle United.
+- Intent: GetInfo
+- Slots: {team: 'Newcastle United'}
+
+ASSISTANT: Hello.
+
+ASSISTANT: How can I help you?
+
+ASSISTANT: Sure, what would you like to know?
+
+USER: What was the score in their last game and who did they play?
+- Intent: GetInfo
+- Slots: {team: 'Newcastle United', info: 'lastOpponent', 'lastScore'}
+
+ASSISTANT: They won their last game with the score of 2-1 against Stoke City on September 16th.
+
+USER: How many games have they played so far?
+- Intent: GetInfo
+- Slots: {team: 'Newcastle United', info: 'numGamesPlayed'}
+
+ASSISTANT: They have played 5 matches in total.
+
+USER: Whom do they play next?
+- Intent: GetInfo
+- Slots: {team: 'Newcastle United', info: 'nextOpponent'}
+
+ASSISTANT: They will next play against Brighton on September 24th at 8:00 a.m.
+
+USER: Who is their manager?
+- Intent: GetInfo
+- Slots: {team: 'Newcastle United', info: 'manager'}
+
+ASSISTANT: Their manager's name is Rafael Benitez.
+
+USER: And what place is Newcastle United in?
+- Intent: GetInfo
+- Slots: {team: 'Newcastle United', info: 'leaguePosition'}
+
+ASSISTANT: They are currently in fourth place with 3 wins and 2 losses.
+
+USER: Thank you, that's all I need to know.
+- Intent: Other

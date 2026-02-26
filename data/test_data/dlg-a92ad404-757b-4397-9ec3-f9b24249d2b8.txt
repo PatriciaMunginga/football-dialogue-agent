@@ -1,0 +1,39 @@
+ASSISTANT: Hi, how can I help you?
+
+USER: Hi, I am a English Premier League soccer fan and my favorite team is Manchester United. And can you tell me how are they doing?
+- Intent: GetInfo
+- Slots: {team: 'Manchester United', info: 'leaguePosition'}
+
+ASSISTANT: Sure.
+
+ASSISTANT: Just one moment.
+
+ASSISTANT: They are currently in first place in the English Premier League.
+
+USER: Great, can you tell me if they are playing right now?
+- Intent: GetInfo
+- Slots: {team: 'Manchester United', info: 'playingNow'}
+
+ASSISTANT: No, they're not scheduled to play today.
+
+USER: Okay, who will they be playing next?
+- Intent: GetInfo
+- Slots: {team: 'Manchester United', info: 'nextOpponent'}
+
+ASSISTANT: Their next game is on August 19th with Swansea City FC.
+
+USER: Great, what was the score of their last game?
+- Intent: GetInfo
+- Slots: {team: 'Manchester United', info: 'lastScore'}
+
+ASSISTANT: They won their last game with a score of 4-0.
+
+USER: Who is the manager of the team?
+- Intent: GetInfo
+- Slots: {team: 'Manchester United', info: 'manager'}
+
+ASSISTANT: Their manager is José Mourinho.
+
+USER: Great, thank you so much for the help today.
+- Intent: Other
+

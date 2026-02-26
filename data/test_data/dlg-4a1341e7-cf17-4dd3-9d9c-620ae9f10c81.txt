@@ -1,0 +1,33 @@
+ASSISTANT: Hello.
+
+USER: Hi. Today, I need your help getting information about Aston Villa in EPL. I'm wondering, what is their record right now?
+- Intent: GetInfo
+- Slots: {team: 'Aston Villa', info: 'winLossRecord'}
+
+ASSISTANT: Aston Villa's record is currently in 16th place in the Premier League.
+
+USER: Okay. Now I'm wondering, Aston Villa in their last game, what was the score?
+- Intent: GetInfo
+- Slots: {team: 'Aston Villa', info: 'lastScore'}
+
+ASSISTANT: It was their first game.
+
+USER: Okay. When will they play their next game?
+- Intent: GetInfo
+- Slots: {team: 'Aston Villa', info: 'nextGameDate'}
+
+ASSISTANT: In the next game, Aston Villa will be playing at 9:30 P.M. on August 19th.
+
+USER: Okay. Now I'm also wondering, who is the manager of Aston Villa?
+- Intent: GetInfo
+- Slots: {team: 'Aston Villa', info: 'manager'}
+
+ASSISTANT: Aston Villa's manager is Unai Emery.
+
+USER: Awesome. Well, that's pretty much all the information I was looking for on Stoke City F.C. and you gave me some good answers. So, thank you for that.
+- Intent: Other
+
+ASSISTANT: Thanks. I hope you have a great day take care.
+
+USER: I hope you have a great evening, as well. Take care.
+- Intent: Other

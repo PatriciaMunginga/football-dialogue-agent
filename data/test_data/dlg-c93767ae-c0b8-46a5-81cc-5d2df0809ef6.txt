@@ -1,0 +1,36 @@
+ASSISTANT: Hello.
+
+USER: Can you tell me what place Fulham is in right now? They're a football league.
+- Intent: GetInfo
+- Slots: {team: 'Fulham', info: 'leaguePosition'}
+
+ASSISTANT: Yes.
+
+ASSISTANT: Fulham is currently in 20th Place.
+
+USER: Okay. How many games they played so far?
+- Intent: GetInfo
+- Slots: {team: 'Fulham', info: 'numGamesPlayed'}
+
+ASSISTANT: Safeway 24 matches.
+
+USER: Okay. Who'd they play last?
+- Intent: GetInfo
+- Slots: {team: 'Fulham', info: 'lastOpponent'}
+
+ASSISTANT: They beat Liverpool 3 to 2.
+
+USER: Okay. Who's their manager right now?
+- Intent: GetInfo
+- Slots: {team: 'Fulham', info: 'manager'}
+
+ASSISTANT: Marco Silva.
+
+USER: Okay. Thank you very much.
+- Intent: Other
+
+ASSISTANT: Have a good day. Bye.
+
+USER: Thank you.
+- Intent: Other
+

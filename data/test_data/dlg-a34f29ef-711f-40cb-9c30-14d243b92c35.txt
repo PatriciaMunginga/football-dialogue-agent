@@ -1,0 +1,35 @@
+ASSISTANT: How can I help you?
+
+USER: Can you tell me if Leicester City is playing right now?
+- Intent: GetInfo
+- Slots: {team: 'Leicester City', info: 'playingNow'}
+
+ASSISTANT: Leicester City is not playing right now. They will play next on December 13th against Manchester City FC.
+
+USER: What's their record like?
+- Intent: GetInfo
+- Slots: {team: 'Leicester City', info: 'winLossRecord'}
+
+ASSISTANT: Leicester City is in the 19th Place with three wins, 10 losses and three draws.
+
+USER: And, who did they play last?
+- Intent: GetInfo
+- Slots: {team: 'Leicester City', info: 'lastOpponent'}
+
+ASSISTANT: Their last game played was on December 9th against West Brom and Leicester City won the game with the score 1 to 0.
+
+USER: Okay, and who is their manager?
+- Intent: GetInfo
+- Slots: {team: 'Leicester City', info: 'manager'}
+
+ASSISTANT: Leicester City A.F.C.'s manager is brendan rodgers.
+
+USER: Okay. Thank you.
+- Intent: Other
+
+ASSISTANT: You're welcome and goodbye.
+
+USER: Goodbye.
+- Intent: Other
+
+

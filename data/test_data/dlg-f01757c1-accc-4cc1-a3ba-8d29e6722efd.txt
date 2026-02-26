@@ -1,0 +1,35 @@
+USER: Hey, Can you tell me what place Nottingham Forest is in? They're in the English Premier League.
+- Intent: GetInfo
+- Slots: {team: 'Nottingham Forest', info: 'leaguePosition'}
+
+ASSISTANT: Nottingham Forest is currently in 19th Place in the English Premier League.
+
+USER: Okay, Are they playing right now?
+- Intent: GetInfo
+- Slots: {team: 'Nottingham Forest', info: 'playingNow'}
+
+ASSISTANT: They're currently not playing.
+
+USER: Okay, Who did they played last?
+- Intent: GetInfo
+- Slots: {team: 'Nottingham Forest', info: 'lastOpponent'}
+
+ASSISTANT: Their last game was against Everton and they lost by 2 - 1.
+
+USER: They lost to Everton?
+- Intent: GetInfo
+- Slots: {team: 'Nottingham Forest', info: 'lastScore'}
+
+ASSISTANT: Yes, They lost to Everton by 2 - 1.
+
+USER: Okay and who is their manager?
+- Intent: GetInfo
+- Slots: {team: 'Nottingham Forest', info: 'manager'}
+
+ASSISTANT: Their manager is Steve Cooper.
+
+USER: Oh, Okay. Thank you so much for your help today.
+- Intent: Other
+
+ASSISTANT: Okay, Bye.
+

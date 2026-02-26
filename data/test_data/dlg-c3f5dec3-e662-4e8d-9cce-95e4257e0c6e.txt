@@ -1,0 +1,35 @@
+ASSISTANT: Hello!
+
+USER: Hello Assistant. I'm a big fan of Chelsea leagues soccer and I'd like to know what place is Chelsea in?
+- Intent: GetInfo
+- Slots: {team: 'Chelsea', info: 'leaguePosition'}
+
+ASSISTANT: They are currently in third place in the English Premier League.
+
+USER: Thank you and how many games have they played so far?
+- Intent: GetInfo
+- Slots: {team: 'Chelsea', info: 'numGamesPlayed'}
+
+ASSISTANT: They had played a total of 24 games.
+
+USER: Thank you. And who are they playing next?
+- Intent: GetInfo
+- Slots: {team: 'Chelsea', info: 'nextOpponent'}
+
+ASSISTANT: Their next opponent is Newcastle FC.
+
+USER: Thank you. And how did they do in their last game?
+- Intent: GetInfo
+- Slots: {team: 'Chelsea', info: 'lastScore'}
+
+ASSISTANT: They lost the last game. The score was 2 and 1.
+
+USER: Thank you and who is their manager?
+- Intent: GetInfo
+- Slots: {team: 'Chelsea', info: 'manager'}
+
+ASSISTANT: Their manager is Antonio Conte.
+
+USER: Okay, thank you so much for the information today.
+- Intent: Other
+

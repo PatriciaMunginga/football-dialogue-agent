@@ -1,0 +1,40 @@
+ASSISTANT: Hi. How can I help you?
+
+USER: Hi Assistant, I am a big fan of New Castle and I'd like to ask you what place is New Castle United in?
+- Intent: GetInfo
+- Slots: {team: 'New Castle United', info: 'leaguePosition'}
+
+ASSISTANT: 15th place in the Premier League.
+
+USER: Thank you, and how many games have they played so far?
+- Intent: GetInfo
+- Slots: {team: 'New Castle United', info: 'numGamesPlayed'}
+
+ASSISTANT: They played 15 games.
+
+USER: Okay, thank you. And who did they play last?
+- Intent: GetInfo
+- Slots: {team: 'New Castle United', info: 'lastOpponent'}
+
+ASSISTANT: They played last with Leicester City.
+
+USER: Okay, great. And what was the score of their last game?
+- Intent: GetInfo
+- Slots: {team: 'New Castle United', info: 'lastScore'}
+
+ASSISTANT: There score in the last game was 1-3.
+
+USER: Okay, thank you. And who is their manager?
+- Intent: GetInfo
+- Slots: {team: 'New Castle United', info: 'manager'}
+
+ASSISTANT: Rafael Benitez.
+
+USER: Okay, great. Thank you so much for the help today.
+- Intent: Other
+
+ASSISTANT: Goodbye.
+
+USER: See you later.
+- Intent: Other
+

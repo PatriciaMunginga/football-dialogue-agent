@@ -1,0 +1,35 @@
+ASSISTANT: Hello, how can I help you?
+
+USER: Hello, what place are the Manchester United in?
+- Intent: GetInfo
+- Slots: {team: 'Manchester United', info: 'leaguePosition'}
+
+ASSISTANT: Currently in first place in the English Premier League.
+
+USER: Isn't it cool, and how many games have the United played so far?
+- Intent: GetInfo
+- Slots: {team: 'Manchester United', info: 'numGamesPlayed'}
+
+ASSISTANT: The Manchester United F.C. has played one game in the English Premier League.
+
+USER: Alright, and who again do they play against?
+- Intent: GetInfo
+- Slots: {team: 'Manchester United', info: 'lastOpponent'}
+
+ASSISTANT: They played against the west ham united F.C.
+
+USER: 10 nil, what was the score?
+- Intent: GetInfo
+- Slots: {team: 'Manchester United', info: 'lastScore'}
+
+ASSISTANT: They won their last game. Next score was 4 and 0.
+
+USER: Good and who is their manager this season?
+- Intent: GetInfo
+- Slots: {team: 'Manchester United', info: 'manager'}
+
+ASSISTANT: Their manager is José Mourinho.
+
+USER: Alright, thanks for your help.
+- Intent: Other
+

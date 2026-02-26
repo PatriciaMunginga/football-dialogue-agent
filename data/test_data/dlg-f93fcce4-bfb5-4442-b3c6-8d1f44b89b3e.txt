@@ -1,0 +1,35 @@
+USER: What place does Liverpool is there in the United Kingdom soccer football team?
+- Intent: GetInfo
+- Slots: {team: 'Liverpool', info: 'leaguePosition'}
+
+ASSISTANT: Hello, How can I help you?
+
+ASSISTANT: Currently in 5th place in the English Premier League.
+
+USER: Okay, what was their score in their last game?
+- Intent: GetInfo
+- Slots: {team: 'Liverpool', info: 'lastScore'}
+
+ASSISTANT: They won their last game and score was 4 to 1.
+
+USER: How many games back are they from first place?
+- Intent: GetInfo
+- Slots: {team: 'Liverpool', info: 'leaguePosition'}
+
+ASSISTANT: They are 5 game back from 1st place.
+
+USER: Who is their manager?
+- Intent: GetInfo
+- Slots: {team: 'Liverpool', info: 'manager'}
+
+ASSISTANT: Their manager is Jürgen Klopp.
+
+USER: When is their next game?
+- Intent: GetInfo
+- Slots: {team: 'Liverpool', info: 'nextGameDate'}
+
+ASSISTANT: Their next game is on November 29th against Stoke City FC.
+
+USER: Okay, that's all I need.
+- Intent: Other
+

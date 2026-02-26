@@ -1,0 +1,42 @@
+USER: Hello. I need to know how are Everton doing?
+- Intent: GetInfo
+- Slots: {team: 'Everton', info: 'leaguePosition'}
+
+ASSISTANT: Hi.
+
+ASSISTANT: Would you like to know about Everton?
+
+USER: Yes, please.
+- Intent: Other
+
+ASSISTANT: They are currently ranked 13.
+
+USER: Are they playing right now?
+- Intent: GetInfo
+- Slots: {team: 'Everton', info: 'playingNow'}
+
+ASSISTANT: No, they are not playing today.
+
+USER: When do they play their next name?
+- Intent: GetInfo
+- Slots: {team: 'Everton', info: 'nextGameDate'}
+
+ASSISTANT: They play with Chelsea tomorrow, January 31st.
+
+USER: What was the score in their last game?
+- Intent: GetInfo
+- Slots: {team: 'Everton', info: 'lastScore'}
+
+ASSISTANT: They played West Ham and they are tied with score 1-1.
+
+USER: And, who's their manager?
+- Intent: GetInfo
+- Slots: {team: 'Everton', info: 'manager'}
+
+ASSISTANT: Let me check that for you.
+
+ASSISTANT: Sean Dyche is their manager.
+
+USER: Okay, great. That's all I needed.
+- Intent: Thanks
+

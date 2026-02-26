@@ -1,0 +1,40 @@
+ASSISTANT: Hi.
+
+USER: Can you tell me what place Brighton is in the English Premier League?
+- Intent: GetInfo
+- Slots: {team: 'Brighton', info: 'leaguePosition'}
+
+ASSISTANT: Brighton is currently in 17th Place in the Premier League standings.
+
+USER: Are they playing right now?
+- Intent: GetInfo
+- Slots: {team: 'Brighton', info: 'playingNow'}
+
+ASSISTANT: No, unfortunately, they are not playing right now. But the next game they will be playing is on September 9th against the West Brom United FC.
+
+USER: Who did they play last?
+- Intent: GetInfo
+- Slots: {team: 'Brighton', info: 'lastOpponent'}
+
+ASSISTANT: Brighton last played with the Barnet FC.
+
+USER: How did they do their last game?
+- Intent: GetInfo
+- Slots: {team: 'Brighton', info: 'lastScore'}
+
+ASSISTANT: Won that game 12 -0.
+
+USER: Who is their manager?
+- Intent: GetInfo
+- Slots: {team: 'Brighton', info: 'manager'}
+
+ASSISTANT: Brighton's manager is Chris Hughton.
+
+USER: Thank you.
+- Intent: Other
+
+ASSISTANT: You are welcome.
+
+USER: Bye.
+- Intent: Other
+
