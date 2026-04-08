@@ -18,6 +18,7 @@ LLM-powered football assistant that performs structured information extraction a
 ## Architecture
 ```
 User Input → LLM (Structured Intent & Slot Extraction in JSON) → Slot-Based Routing → Football-Data API → Generated Response
+![Core Agent Architecture](core_agent.png).
 ```
 
 ---
