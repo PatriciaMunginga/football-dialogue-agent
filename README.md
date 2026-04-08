@@ -84,7 +84,7 @@ Get a free key at [football-data.org](https://www.football-data.org/).
 #### 3. Configure your Ollama client
 Open `football_dialogue_agent.ipynb` and find the client setup cell. Choose **one** of the options below depending on your situation:
 
-**Option A — University of Glasgow VPN (recommended, faster)**  
+**Option A - University of Glasgow VPN (recommended, faster)**  
 Connect to the University of Glasgow VPN first, then use:
 ```python
 client = ollama.Client(host='http://makatea.dcs.gla.ac.uk:11434')
@@ -92,7 +92,7 @@ client = ollama.Client(host='http://makatea.dcs.gla.ac.uk:11434')
 
 This runs inference on university GPU hardware and is significantly faster.
 
-**Option B — Local machine (no VPN required)**  
+**Option B - Local machine (no VPN required)**  
 Make sure Ollama is running locally first:
 ```bash
 ollama serve
